@@ -1,5 +1,6 @@
 package io.team.springbootstarter.player;
 
+//this class is a player object.
 public class Player {
 	
 	private String number;

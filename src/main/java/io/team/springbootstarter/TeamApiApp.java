@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class TeamApiApp {
 
 	public static void main(String[] args) {
+		//Starting the Spring Boot Application.
 		SpringApplication.run(TeamApiApp.class, args);
 		
 	}
