@@ -28,5 +28,21 @@ public class PlayerService {
 		players.add(player);
 	}
 
+	public void updatePlayer(String number, Player player) {
+		for(int i=0; i<players.size(); i++) {
+			Player p=players.get(i);
+			if(p.getNumber().equals(number)) {
+				players.set(i, player);
+				return;
+			}
+		}
+		
+	}
+
+	public void deletePlayer(String number) {
+		players.removeIf(e -> e.getNumber().equals(number));
+		
+	}
+
 	
 }
