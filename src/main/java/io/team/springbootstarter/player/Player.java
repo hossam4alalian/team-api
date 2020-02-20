@@ -1,8 +1,13 @@
 package io.team.springbootstarter.player;
 
-//this class is a player object.
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+//this class is a player Entity.
+@Entity
 public class Player {
 	
+	@Id
 	private String number;
 	private String name;
 	private String Position;
